@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from '../components/Header'
 import Info from '../components/Info'
 import { Bulbasaur, Charmander, Squirtle } from '../components/Info/Data'
+import Legends from '../components/Legends'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 
@@ -21,6 +22,7 @@ const Home = () => {
             <Info {...Bulbasaur}></Info>
             <Info {...Charmander}></Info>
             <Info {...Squirtle}></Info>
+            <Legends></Legends>
         </>
     )
 }
