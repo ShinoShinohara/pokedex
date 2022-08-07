@@ -33,7 +33,7 @@ const Header = () => {
                     <HeaderBtnWrapper>
                         <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover}
                             primary='true'
-                            dark='true'>
+                            dark='false'>
                             Get Started {hover ? <ArrowFoward /> : <ArrowRight></ArrowRight>}
                         </Button>
                     </HeaderBtnWrapper>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { MdKeyboardArrowRight, MdKeyboardTab } from 'react-icons/md'
 
 export const HeaderContainer = styled.div`
-background: black;
+background: white;
 display: flex;
 justify-content: center;
 align-items: center;
