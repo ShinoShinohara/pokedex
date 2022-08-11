@@ -78,7 +78,7 @@ display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
-height: 100%;
+height: 96%; //i dont know why
 cursor: pointer;
 
 &.active{
