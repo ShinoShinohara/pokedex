@@ -8,7 +8,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: black;
+background: #cc0000;
 display: grid;
 align-items: center;
 top: 0;
@@ -58,7 +58,7 @@ transition: 2s ease-in-outas;
 color: white;
 cursor: pointer;
 &:hover{
-    color: blue;
+    color: #ffcc00;
     transition: 0.2s ease-in-out;
 }
 `
@@ -70,10 +70,10 @@ justify-content: center;
 
 export const SidebarRoute = styled(LinkR)`
 border-radius: 50px;
-background: blue;
+background: white;
 white-space: nowrap;
 padding: 16px 64px;
-color: red;
+color: black;
 font-size: 16px;
 outline: none;
 border: none;
@@ -82,7 +82,8 @@ transition: all 0.2s ease-in-out;
 text-decoration: none;
 &:hover{
     transition: all 0.2s ease-in-out;
-    color: black;
+    color: white;
+    background: black;
 }
 `
 

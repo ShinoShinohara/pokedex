@@ -10,7 +10,7 @@ import {
     SidebarMenu
 } from './SidebarElements'
 
-const Sidebar = ({isOpen, toggle}) => {
+const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -18,17 +18,17 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWraper>
                 <SidebarMenu>
-                    <SidebarLink to='about' onClick={toggle}>
-                        About
+                    <SidebarLink to='bulbasaur' onClick={toggle}>
+                        Bulbasaur
                     </SidebarLink>
-                    <SidebarLink to='discover' onClick={toggle}>
-                        Discover
+                    <SidebarLink to='charmander' onClick={toggle}>
+                        Charmander
                     </SidebarLink>
-                    <SidebarLink to='services' onClick={toggle}>
-                        Services
+                    <SidebarLink to='squirtle' onClick={toggle}>
+                        Squirtle
                     </SidebarLink>
-                    <SidebarLink to='signup' onClick={toggle}>
-                        Sign Up
+                    <SidebarLink to='legends' onClick={toggle}>
+                        Legends
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
