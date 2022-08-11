@@ -1,8 +1,14 @@
 import React from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 import { FaGithub } from 'react-icons/fa'
 import { FooterContainer, FooterLink, FooterLinkItem, FooterLinksContainer, FooterLinksWrapper, FooterLinkTitle, FooterSocial, FooterWrapper, SocialIcons, SocialIconsLink, SocialLogo, SocialWrapper, WebSiteRights } from './FooterElements'
 
 const Footer = () => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+
     return (
         <>
             <FooterContainer>
@@ -43,7 +49,7 @@ const Footer = () => {
                     </FooterLinksContainer>
                     <FooterSocial>
                         <SocialWrapper>
-                            <SocialLogo to="/">pokemon</SocialLogo>
+                            <SocialLogo to="/" onClick={toggleHome}>pokemon</SocialLogo>
                             <WebSiteRights>feito pelo shino</WebSiteRights>
                             <SocialIcons>
                                 <SocialIconsLink href="//github.com/ShinoShinohara/pokedex" target="_blank" arial_label="GitHub">
