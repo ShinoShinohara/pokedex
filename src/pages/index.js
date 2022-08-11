@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Info from '../components/Info'
 import { Bulbasaur, Charmander, Squirtle } from '../components/Info/Data'
@@ -23,6 +24,7 @@ const Home = () => {
             <Info {...Charmander}></Info>
             <Info {...Squirtle}></Info>
             <Legends></Legends>
+            <Footer></Footer>
         </>
     )
 }
